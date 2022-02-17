@@ -1,0 +1,28 @@
+package _4arrays;
+
+public class LearningArraysConcept {
+
+	public static void main(String[] args) {
+		
+		//int i = 10;
+		
+		// lets say we have 32,34,45,76,8,54,99,75,35, nine value, we can store these values using 9 variables
+		// How to create arrays, there are two ways as well like variables
+			// two ways of creating an Array
+		// 1- DataType variableName = value; -- was how we created variable - first way
+		//1- DataType arrayName [] = { value1, value2 , ...., valueN}
+		//or DataType[] arrayName  = { value1, value2 , ...., valueN}
+		// value1 = arrayName[0], value2 = arrrayName[1], .... valueN = arrayName[N-1]
+		
+		int[] numbers = {32,34,45,76,8,54,99,75,35};
+		String[] names = {"Satrughan", "Swopneel", "Swornim", "Amita", "Anusha"};
+		
+		System.out.println(names.length);
+		System.out.println(numbers.length);
+		
+		/*
+		 * System.out.println(numbers[3]); System.out.println(names[1]);
+		 */
+	}
+
+}

@@ -1,0 +1,9 @@
+package files;
+
+public class Payload {
+	
+	public static String AddPlace() {
+		return String
+	}
+
+}

@@ -1,0 +1,14 @@
+package _3loops;
+
+public class LearningWhileLoop {
+
+	public static void main(String[] args) {
+		// program to print numbers 1 to 10
+		int x;
+		x++;
+		
+		System.out.println(x);
+
+	}
+
+}

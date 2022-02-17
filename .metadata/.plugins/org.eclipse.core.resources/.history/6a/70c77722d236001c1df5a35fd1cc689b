@@ -1,0 +1,37 @@
+package _3loops;
+
+public class LearningWhileLoop {
+
+	public static void main(String[] args) {
+		// program to print numbers 1 to 10
+		/*
+		 * int x; x = 10;
+		 * 
+		 * System.out.println(x);
+		 * 
+		 * x++; //x + 1, x++ increments the value of x by 1, ++ is increment operator
+		 * 
+		 * System.out.println(x);
+		 * 
+		 * x--; // x - 1
+		 * 
+		 * System.out.println(x);
+		 */
+
+		
+		int x = 1;
+		while(x<11)
+		{ 
+			System.out.println(x);
+			x++;
+		}
+		
+		int y = 10;
+		while(y>0)
+		{
+			System.out.println(y);
+			y--;
+		}
+	}
+
+}
